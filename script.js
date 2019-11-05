@@ -8,7 +8,7 @@ btn.onclick= function(){
   var el=document.querySelector('.hide');
 
 
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&units=metric&APPID=37ea0caae6efeb037c93b0a3644a6a5f`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&units=metric&APPID=37ea0caae6efeb037c93b0a3644a6a5f`)
   .then(data=>{ return data.json()})
   .then(data2=>{
     console.log(data2);
