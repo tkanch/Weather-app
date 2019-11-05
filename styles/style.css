@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: arial,sans-serif;
+  color: white; }
+
+div.container {
+  width: 80%;
+  background-image: url("../images/background.jpg");
+  margin: 50px auto;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px; }
+
+h1 {
+  font-size: 3rem;
+  border-bottom: solid 1px white;
+  padding: 20px;
+  font-weight: 300; }
+  h1 span {
+    padding: 30px; }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 10px; }
+
+p {
+  font-size: 1.2rem;
+  padding: 10px; }
+
+input {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  margin: 20px;
+  border-radius: 10px;
+  border: none; }
+
+button {
+  background-color: white;
+  color: #0095c6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  border: none;
+  position: relative; }
+  button:hover {
+    cursor: pointer;
+    top: 2px;
+    left: 2px;
+    color: darkblue; }
+
+ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 20px auto;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 20px; }
+
+li {
+  padding: 10px 0 10px 50px;
+  text-align: left;
+  text-transform: capitalize; }
+
+li.icon img {
+  position: relative;
+  display: inline-block;
+  top: 10px; }
+li.icon span {
+  font-size: 2rem;
+  padding: 0 10px; }
+
+@media screen and (max-width: 900px) {
+  div.container {
+    width: 90%; }
+
+  h1 {
+    font-size: 2.5rem; }
+
+  h2 {
+    font-size: 1.5rem; }
+
+  input, button {
+    font-size: 1rem;
+    display: inline; }
+
+  ul {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
